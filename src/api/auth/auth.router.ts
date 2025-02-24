@@ -9,4 +9,3 @@ router.post("/signin", validate(SigninUserDTO), signin);
 router.post("/login", validate(LoginUserDTO), login);
 
 export default router;
-
